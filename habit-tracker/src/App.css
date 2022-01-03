@@ -1,7 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
 button {
   outline: none;
   border: 0;
   cursor: pointer;
+}
+
+.navbar {
+  font-size: 2rem;
+  padding: 1em;
+  background-color: blanchedalmond;
+}
+
+.navbar-logo {
+  color: green;
+  margin-right: 0.5em;
+}
+
+.navbar-count {
+  display: inline-block;
+  text-align: center;
+  font-size: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  margin-left: 0.2em;
+  background-color: green;
+  color: white;
+  border-radius: 50%;
+}
+
+.add-input {
+  font-size: 2rem;
+  margin-right: 0.2em;
+}
+
+.add-button {
+  height: 100%;
+  font-size: 1.5rem;
+  padding: 0.3em 0.5em;
+  background-color: green;
+  color: white;
 }
 
 .habit {
@@ -42,4 +83,43 @@ button {
 .habit-delete {
   font-size: 2rem;
   color: darkred;
+}
+
+/* Header */
+.habit-header {
+  background-color: antiquewhite;
+  padding: 3rem;
+}
+.fa-leaf {
+  color: darkseagreen;
+  font-size: 2rem;
+  padding-right: 0.5em;
+}
+.habit-title {
+  font-size: 2rem;
+  padding-right: 0.5em;
+}
+.habit-total {
+  background-color: darkgreen;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+.habit-input-wrapper {
+  padding: 2rem 0;
+}
+.habit-input {
+  height: 2rem;
+  width: 15rem;
+}
+.habit-add {
+  background-color: darkgreen;
+  padding: 0.8rem;
+  color: white;
+}
+.habits-reset {
+  font-size: 1.5rem;
+  padding: 0.2em 1em;
+  background-color: green;
+  color: white;
 }
